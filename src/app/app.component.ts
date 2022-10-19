@@ -8,6 +8,7 @@ import { PostService } from './services/post.service';
 })
 export class AppComponent {
   title = 'my-first-project';
+  color = '';
   nom : String;
   posts: any[]=[];
   constructor(postService : PostService){

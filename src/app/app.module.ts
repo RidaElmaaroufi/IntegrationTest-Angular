@@ -8,7 +8,7 @@ import { PostService } from './services/post.service';
 import { HttpClientModule} from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 import { Router } from '@angular/router';
-import { TestComponent } from './test/test.component';
+import { HighlightDirective } from './highlight.directive';
 
 
 @NgModule({
@@ -16,7 +16,7 @@ import { TestComponent } from './test/test.component';
     AppComponent,
     HeaderComponent,
     LoginComponent,
-    TestComponent
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
